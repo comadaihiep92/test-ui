@@ -1,0 +1,25 @@
+//  reset
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+// set default
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Karla', sans-serif;
+}
+.container-fluid {
+    max-width: 1920px;
+    padding: 0 80px;
+  }
+.container {
+    max-width: 1550px;
+}
+
+// header
