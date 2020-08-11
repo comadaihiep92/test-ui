@@ -9,7 +9,7 @@
   </head>
   <body>
     <div class="container-fluid">
-      <header class="header"><img class="header__logo" src="images/Perfectice-Logo.png" alt="logo"/>
+      <header class="header row"><img class="header__logo" src="images/Perfectice-Logo.png" alt="logo"/>
         <nav class="header__nav">
           <ul class="menu">
             <li class="menu__item"><a class="menu__link" href="#">Dashboard</a></li>
@@ -25,13 +25,17 @@
           <div class="header__item"><a class="btn" href="#"><img src="images/avata.png" alt="chat"/></a></div>
         </div>
       </header>
+    </div>
+    <div class="container-fluid row">
       <div class="banner">
         <h3 class="banner__text">What do you want to Practice today?</h3>
         <input class="banner__input" type="search"/>
       </div>
-      <div class="container">
-        <h2 class="container__title">3 search results</h2>
-        <div class="box">
+    </div>
+    <div class="container row">
+      <div class="box">
+        <h2 class="box__title">3 search results</h2>
+        <div class="box__list">
           <div class="box__item">
             <div class="box__image"><img src="images/lesson.png" alt="lesson"/></div>
             <div class="box__info">
@@ -74,8 +78,7 @@
                 <div class="box__question--text">60 questions</div>
                 <div class="box__question--text">120 minutes</div>
               </div>
-            </div>
-            <div class="box__button">VIEW DETAILS</div>
+            </div><a class="box__button" href="#">VIEW DETAILS</a>
           </div>
         </div>
       </div>
