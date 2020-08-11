@@ -204,5 +204,10 @@ body {
         color: var(--button-purple);
         background: #E1E1F8;
         border-radius: 0px 0px 10px 10px;
+        font-weight: bold;
+        &:hover {
+            color: var(--active-black);
+            background: var(--border);
+        }
     }
 }
