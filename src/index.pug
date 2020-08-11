@@ -8,7 +8,7 @@ html(lang="en")
         link(href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet")
     body
         .container-fluid
-            header.header
+            header.header.row
                 img(src="images/Perfectice-Logo.png", alt="logo").header__logo
                 nav.header__nav
                     ul.menu
@@ -32,12 +32,14 @@ html(lang="en")
                     .header__item
                         a.btn(href="#")
                             img(src="images/avata.png", alt="chat")
+        .container-fluid.row
             .banner
                 h3.banner__text What do you want to Practice today?
                 input.banner__input(type="search")
-            .container
-                h2.container__title 3 search results
-                .box
+        .container.row
+            .box
+                h2.box__title 3 search results
+                .box__list
                     .box__item
                         .box__image
                             img(src="images/lesson.png", alt="lesson")
@@ -73,4 +75,4 @@ html(lang="en")
                             .box__question
                                 .box__question--text 60 questions
                                 .box__question--text 120 minutes
-                        .box__button VIEW DETAILS
+                        a(href="#").box__button VIEW DETAILS
